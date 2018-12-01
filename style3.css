@@ -1,0 +1,99 @@
+body {
+  background-color: #2b3446;
+  width:100%;
+  height:100%;
+}
+
+h1 {
+text-align: center;
+text-shadow: -6px 6px 37px rgba(0, 0, 0, 0.69);
+color: #ffe797;
+font-family: "Ostrich Sans Inline";
+font-size: 100px;
+font-style: italic;
+}
+
+
+ul {
+    font-size: 30px;
+    list-style-type: none;
+    margin: 40px;
+    width:50%;
+    position: relative; left: 36%;
+    padding: 0;
+    overflow: hidden;
+    text-align:center;
+    font-family:"Ostrich Sans Rounded";
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    transition-duration: 1s;
+    background-color: #111;
+}
+
+p {
+  font-family: "Helvetica";
+  margin: auto;
+  padding: 10px;
+}
+
+
+
+h2 {
+text-align: center;
+position: relative; left: 45%;
+width: 147px;
+height: 20px;
+font-style: linear-gradient(to top, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
+background-clip: text;
+color: #262e3d;
+font-family: "Ostrich Sans Rounded";
+font-size: 27px;
+font-weight:bolder;
+}
+
+h3 {
+float:left;
+color: #ffe797;
+font-family: "Ostrich Sans Rounded";
+font-size: 32px;
+font-weight: 400;
+}
+
+h4 {
+  float:left;
+  color: #ffe797;
+  font-family: "Ostrich Sans Rounded";
+  font-size: 32px;
+  font-weight: 400;
+}
+
+h5 {
+  position: relative; left: auto;
+  color: #ffe797;
+  font-family: "Ostrich Sans Rounded";
+  font-size: 32px;
+  font-weight: 400;
+}
+
+div {
+display: block;
+align-items: center;
+color:#fff9e6;
+padding: 10px;
+float:left;
+box-shadow: -4px 4px 51px 9px rgba(0, 0, 0, 0.55);
+background-color: #3b475e;
+}
