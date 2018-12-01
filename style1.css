@@ -8,7 +8,7 @@ h1 {
 text-align: center;
 text-shadow: -6px 6px 37px rgba(0, 0, 0, 0.69);
 color: #ffe797;
-font-family: "Ostrich Sans Inline";
+font-family: "Ostrich Sans Rounded";
 font-size: 100px;
 font-style: italic;
 }
@@ -47,8 +47,19 @@ p {
   font-family: "Helvetica";
   margin: auto;
   padding: 10px;
+  word-wrap: break-word;
+  text-align: center;
+
 }
 
+#clock {
+  font-family: "Ostrich Sans Rounded";
+  margin: auto;
+  padding: 10px;
+  word-wrap: break-word;
+  text-align: center;
+
+}
 
 
 h2 {
@@ -81,11 +92,11 @@ h4 {
 }
 
 h5 {
-  position: relative; left: auto;
   color: #ffe797;
   font-family: "Ostrich Sans Rounded";
   font-size: 32px;
   font-weight: 400;
+
 }
 
 div {
@@ -94,6 +105,7 @@ align-items: center;
 color:#fff9e6;
 padding: 10px;
 float:left;
+width: 97.5%;
 box-shadow: -4px 4px 51px 9px rgba(0, 0, 0, 0.55);
 background-color: #3b475e;
 }
