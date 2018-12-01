@@ -13,3 +13,10 @@ function checkTime(i) {
     if (i < 10) {i = "0" + i};
     return i;
 }
+function validateForm() {
+    var x = document.forms["Student Number"]["fname"].value;
+    if (x == "") {
+        alert("Submit Student Number");
+        return false;
+    }
+}

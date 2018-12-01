@@ -58,6 +58,12 @@ p {
 
 }
 
+form {
+  font-family: "Ostrich Sans Rounded";
+  font-size: 32px;
+  color: white;
+}
+
 h2 {
 text-align: center;
 position: relative; left: 45%;
